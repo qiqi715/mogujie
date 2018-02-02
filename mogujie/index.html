@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>蘑菇街</title>
+<link rel="icon" type="image/x-icon" href="img/home.ico">
+<link rel="stylesheet" type="text/css" href="css/index.css">
+<script type="text/javascript" src="js/imgData.js"></script>
+<script type="text/javascript" src="js/loadMore.js"></script>
+<script type="text/javascript" src="js/loadImg.js"></script>
+<script type="text/javascript" src="js/tween.js"></script>
+<script type="text/javascript" src="js/scroll.js"></script>
+</head>
+<body>
+<div class="page">
+	<div class="con">
+		<ul class="right-bar">
+			<li class="right-bar-blank"></li>
+			<li>
+				<a href="#" class="my-cart">
+					<i class="s-icon"></i>
+					<div class="s-txt">购物车</div>
+					<div class="s-num"></div>
+				</a>
+			</li>
+			<li>
+				<a href="#" class="my-coupon">
+					<i class="s-icon"></i>
+					<div class="s-txt">购物车</div>
+					<div class="s-num"></div>
+				</a>
+			</li>
+			<li>
+				<a href="#" class="my-wallet">
+					<i class="s-icon"></i>
+					<div class="s-txt">钱包</div>
+				</a>
+			</li>
+			<li>
+				<a href="#" class="my-browserlog">
+					<i class="s-icon"></i>
+					<div class="s-txt">足迹</div>
+				</a>
+			</li>
+			<li class="right-bar-bottom">
+				<a href="#">
+					<i class="s-icon"></i>
+				</a>
+			</li>
+		</ul>
+		<div id="top">
+			<div class="wrap">
+				<a href="#" class="home fl">蘑菇街首页</a>
+				<ul class="top-list fr">
+					<li><a href="#">登录</a></li>
+					<li class="has-line icn-order"><a href="#" class="">我的订单</a></li>
+					<li class="has-line icn-cart"><a href="#" class="">购物车</a></li>
+					<li class="has-line"><a href="#">客户服务</a><i class="icn-more"></i></li>
+					<li class="has-line icn-shop"><a href="#" class="">我的小店</a><i class="icn-more"></i></li>
+				</ul>
+			</div>
+		</div>
+		<header id="header">
+			<div class="wrap clearFix">
+				<a href="#" class="logo fl" title="蘑菇街首页">
+					<img src="img/logo.gif" alt="蘑菇街，我的买手街">
+				</a>
+				<div class="search-box fl">
+					<div class="search-cont">
+						<div class="search-inner-box">
+							<div class="select-box">
+								<span class="selected">搜商品</span>
+							</div>
+							<form action="#" method="get" class="header-form">
+								<input type="text" class="fm-txt fl">
+								<input type="submit" value="搜  索" class="fm-btn fr">
+							</form>
+						</div>
+					</div>
+					<nav class="hot-words">
+						<a href="#">短袖t恤</a>
+						<a href="#">眉笔</a>
+						<a href="#" class="hot">口红</a>
+						<a href="#">手机壳</a>
+						<a href="#">牛仔裤</a>
+						<a href="#" class="hot">小白鞋</a>
+						<a href="#" class="hot">卫衣</a>
+						<a href="#">内裤</a>
+						<a href="#">袜子</a>
+						<a href="#">时尚套装</a>
+					</nav>
+				</div>
+				<div class="logo-right fr">
+					<img src="img/logoRight.png" alt="蘑菇街，我的买手街">
+				</div>
+			</div>
+		</header>
+		<header id="header-fixed">
+			<div class="wrap">
+				<a href="#" class="logo fl" title="蘑菇街首页">
+					<img src="img/logo.png" alt="蘑菇街，我的买手街">
+				</a>
+				<div class="search-box fl">
+					<div class="search-cont">
+						<div class="search-inner-box">
+							<div class="select-box">
+								<span class="selected">搜商品</span>
+							</div>
+							<form action="#" method="get" class="header-form">
+								<input type="text" class="fm-txt fl">
+								<input type="submit" value="搜  索" class="fm-btn fr">
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<main id="main">
+			<div class="banner-wrap">
+				<a class="banner">
+					<img src="img/banner.jpg" alt="">
+				</a>
+			</div>
+
+			<div class="nav-wrap">
+				<div class="nav wrap">
+					<h3 class="nav-title"><a href="#">首页</a>&gt;红人穿搭</h3>
+					<ul class="nav-list">
+						<li><a href="#" class="c1">温暖不显胖</a></li>
+						<li><a href="#" class="c2 active">一秒出门套装</a></li>
+						<li><a href="#" class="c3">155专属穿搭</a></li>
+						<li><a href="#" class="c4">初冬要保暖</a></li>
+						<li><a href="#" class="c5">柔软毛衣</a></li>
+						<li><a href="#" class="c6">小个子外套</a></li>
+						<li><a href="#" class="c7">懒人出门套装</a></li>
+						<li><a href="#" class="c8">软妹棉服</a></li>
+						<li><a href="#" class="c9">气质女神范</a></li>
+						<li><a href="#" class="c10">长裙X开衫</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="pool-wrap">
+				<div class="wrap">
+					<ul id="pics" class="clearFix">
+						<!--<li>
+                            <a href="#" class="cloth-img">
+                                <img src="img/img2 (43).webp">
+                            </a>
+                            <div class="detail">
+                                <a href="#" class="title"><p>柔软保暖套装</p></a>
+                                <div class="">
+                                    <div class="user-img"><img src="img/user1.jpg"></div>
+                                    <span class="user-name">蘑菇搭配购</span>
+                                </div>
+                            </div>
+                        </li>-->
+					</ul>
+					<p class="loadMore">
+						<img src="img/loadMore.gif">
+						正在加载更多内容
+					</p>
+				</div>
+			</div>
+		</main>
+
+		<footer id="footer">
+			<div class="wrap">
+				<ul class="footer-helper">
+					<li>
+						<div class="cont-box">
+							<h4 class="title color-666">- 新手帮助 -</h4>
+							<ul class="item-list">
+								<li class="footer-item"><a href="#" class="color-999">常见问题</a></li>
+								<li class="footer-item"><a href="#" class="color-999">自助服务</a></li>
+								<li class="footer-item"><a href="#" class="color-999">联系客服</a></li>
+								<li class="footer-item"><a href="#" class="color-999">意见反馈</a></li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<div class="cont-box">
+							<h4 class="title color-666">- 权益保障 -</h4>
+							<ul class="item-list">
+								<li class="footer-item"><a href="#" class="color-999">全国包邮</a></li>
+								<li class="footer-item"><a href="#" class="color-999">7天无理由退货</a></li>
+								<li class="footer-item"><a href="#" class="color-999">退货运费补贴</a></li>
+								<li class="footer-item"><a href="#" class="color-999">限时发货</a></li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<div class="cont-box">
+							<h4 class="title color-666">- 支付方式 -</h4>
+							<ul class="item-list">
+								<li class="footer-item"><a href="#" class="color-999">微信支付</a></li>
+								<li class="footer-item"><a href="#" class="color-999">支付宝</a></li>
+								<li class="footer-item"><a href="#" class="color-999">白付美支付</a></li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<div class="cont-box">
+							<h4 class="title color-666">- 移动客户端下载 -</h4>
+							<ul class="item-list item-list-last">
+								<li class="footer-item"><a href="#" class="color-999">蘑菇街</a></li>
+								<li class="footer-item"><a href="#" class="color-999">美丽说</a></li>
+								<li class="footer-item"><a href="#" class="color-999">uni引力</a></li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+
+				<div class="footer-info">
+					<ul>
+						<li class="footer-item"><a href="#" class="color-666">关于我们</a></li>
+						<li class="footer-item"><a href="#" class="color-666">招聘信息</a></li>
+						<li class="footer-item"><a href="#" class="color-666">联系我们</a></li>
+						<li class="footer-item"><a href="#" class="color-666">商家入驻</a></li>
+						<li class="footer-item"><a href="#" class="color-666">商家后台</a></li>
+						<li class="footer-item"><a href="#" class="color-666">蘑菇商学院</a></li>
+						<li class="footer-item"><a href="#" class="color-666">商家社区</a></li>
+						<li class="footer-item"><a href="#" class="color-666">规则中心</a></li>
+					</ul>
+					<p class="color-999">©2017 Mogujie.com 杭州卷瓜网络有限公司</p>
+				</div>
+				<div class="footer-copyright">
+					<span class="color-999">营业执照： </span>
+					<a href="#" class="color-999">913301065526808764</a>
+					<b class="footer-b color-999">| </b>
+					<span href="#" class="color-999">网络文化经营许可证： </span>
+					<a href="#" class="color-999">浙网文（2016）0349-219号</a>
+					<b class="footer-b color-999">| </b>
+					<span href="#" class="color-999">增值电信业务经营许可证： </span>
+					<a href="#" class="color-999">浙B2-20110349</a>
+					<b class="footer-b color-999">| </b>
+					<a href="#" class="color-999">浙B2-20110349</a>
+					<b class="footer-b color-999">| </b>
+					<a href="#" class="color-999">安全责任书</a>
+					<b class="footer-b color-999">| </b>
+					<a href="#" class="color-999">浙公网安备 33010602002329号</a>
+					<b class="footer-b color-999">| </b>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<div class="scroll-wrap">
+		<div class="scroll-track">
+			<div class="scroll-bar"></div>
+		</div>
+	</div>
+</div>
+<script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>
